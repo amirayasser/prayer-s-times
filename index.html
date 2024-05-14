@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>times prayer in egypt</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Prayer Times</h2>
+        <div>
+            <div>upcoming Prayer: <span id="nextPrayer"></span></div>
+
+            <p>today: <span id="date"></span></p>
+            <div>remaining time: <span id="remtime"></span></div>
+
+            <select id="city" title="city">
+                <option value="Cairo">Cairo</option>
+                <option value="Mansourah">Mansourah</option>
+                <option value="Alexandria">Alexandria</option>
+                <option value="Aswan">Aswan</option>
+            </select>
+        </div>
+
+        <div class="prayers">
+            <div class="prayerName" id="fajr">
+                Fajr <div class="fajrTime"></div>
+            </div>
+            <div class="prayerName" id="sunrise">
+                Sunrise <div class="sunriseTime"></div>
+            </div>
+            <div class="prayerName" id="dhuhr">
+                Dhuhr <div class="dhuhrTime"></div>
+            </div>
+            <div class="prayerName" id="asr">
+                Asr <div class="asrTime"></div>
+            </div>
+            <div class="prayerName" id="maghrib">
+                Maghrib <div class="maghribTime"></div>
+            </div>
+            <div class="prayerName" id="isha">
+                Isha <div class="ishaTime"></div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
